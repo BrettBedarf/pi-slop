@@ -1,0 +1,29 @@
+{
+	"name": "pi-slop",
+	"private": true,
+	"version": "0.0.1",
+	"description": "pi slopstensions monorepo",
+	"scripts": {
+		"workspaces": "pnpm -r list --depth -1",
+		"test": "pnpm -r test"
+	},
+	"devDependencies": {
+		"vitest": "^3.0.0"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "^11.9.0",
+			"onFail": "download"
+		}
+	},
+	"type": "module",
+	"vitest": {
+		"include": [
+			"extensions/**/test/**/*.test.ts"
+		]
+	}
+}

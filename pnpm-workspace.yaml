@@ -1,0 +1,5 @@
+packages:
+  # ponytail: keep single workspace bucket for now; split by kind later if personal extensions outgrow this.
+  - extensions/*
+allowBuilds:
+  esbuild: true
