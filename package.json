@@ -21,6 +21,11 @@
 		}
 	},
 	"type": "module",
+	"pi": {
+		"extensions": [
+			"extensions/*/src/index.ts"
+		]
+	},
 	"vitest": {
 		"include": [
 			"extensions/**/test/**/*.test.ts"
