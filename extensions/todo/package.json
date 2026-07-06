@@ -1,16 +1,11 @@
 {
 	"name": "@pi-slop/todo",
 	"version": "0.1.0",
-	"private": true,
 	"type": "module",
 	"description": "pi todo extension: pinned live todo widget above the editor + cross-session handoff/pickup.",
+	"main": "src/index.ts",
 	"scripts": {
 		"test": "vitest run"
-	},
-	"pi": {
-		"extensions": [
-			"./src/index.ts"
-		]
 	},
 	"peerDependencies": {
 		"@earendil-works/pi-ai": "*",

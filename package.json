@@ -1,6 +1,5 @@
 {
 	"name": "pi-slop",
-	"private": true,
 	"version": "0.0.1",
 	"description": "pi slopstensions monorepo",
 	"scripts": {
@@ -23,7 +22,7 @@
 	"type": "module",
 	"pi": {
 		"extensions": [
-			"extensions/*/src/index.ts"
+			"extensions/todo/src/index.ts"
 		]
 	},
 	"vitest": {
