@@ -2,4 +2,7 @@ packages:
   # ponytail: keep single workspace bucket for now; split by kind later if personal extensions outgrow this.
   - extensions/*
 allowBuilds:
+  # ponytail: peer deps come from pi runtime; keep their build scripts disabled unless package starts bundling them.
+  '@google/genai': false
   esbuild: true
+  protobufjs: false
